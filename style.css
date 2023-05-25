@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Squada One', cursive;
+}
+
+header {
+    background-color: #000;
+    color: white;
+}
+
+.img-cabecalho{
+    width: 120px;
+}
+
+.cabecalho {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-lista-item{
+    font-family: 'League Spartan', sans-serif;
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.halteres-imagem{
+    width: 33%;
+    margin: 16px;
+    padding: 24px;
+    text-align: center;
+    display: inline-block;
+}
+
+.academia{
+    background-image: linear-gradient(#000,#AE00B2);
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.academia-titulo{
+    padding: 24px 0;
+    font-size: 60px;
+    text-align: center;
+}
+
+.academia-texto-um{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    margin: 5%;
+}
+
+.todas-img{
+    text-align: center;
+}
+
+.todas-img{
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+    background-color: #AE00B2;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+}
+
+.imagem1{
+    width: 270px;
+}
+
+.imagem2{
+    width: 270px;
+}
+
+.imagem3{
+    width: 270px;
+}
+
+.imagem4{
+    width: 270px;
+}
+
+.estudante-icone{
+    width: 20px;
+    padding: 35%;
+
+}
+
+.estudante-icone2{
+    width: 20px;
+    padding: 35%;
+}
+
+.ESCRITA{
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 120%;
+}
